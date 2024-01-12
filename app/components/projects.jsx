@@ -123,9 +123,9 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className='w-full h-auto my-4 max-w-7xl'>
-      <h1 className='my-4 text-6xl font-bold text-center text-white'>Proyectos</h1>
-      <section className='grid justify-end w-full h-full grid-cols-3 gap-6 p-8 rounded-lg'>
+    <div className='w-full h-auto mt-4 mb-10 max-w-7xl'>
+      <h1 className='my-4 text-4xl font-bold text-center text-white'>Proyectos</h1>
+      <section className='grid justify-end w-full h-full grid-cols-1 gap-6 p-8 rounded-lg md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
         {projects.map((e, index) => (
           <article key={index} className='flex flex-col justify-between w-full h-full max-h-[400px] p-1'>
             <section className='relative h-80'>

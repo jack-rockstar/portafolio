@@ -2,7 +2,6 @@ import Banner from './components/banner'
 import Footer from './components/footer'
 import Navbar from './components/navbar'
 import Projects from './components/projects'
-import Skill from './components/skill'
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Projects />
-      <Skill />
+      {/* <Skill /> */}
       <Footer />
     </main>
   )

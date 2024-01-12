@@ -10,7 +10,7 @@ export const CLIENTS = [
 export default function Skill() {
   return (
     <div className='w-full h-auto my-4 max-w-7xl'>
-      <h1 className='my-4 text-6xl font-bold text-center text-white'>HABILIDADES</h1>
+      <h1 className='my-4 text-3xl md:text-4xl lg:text-4xl xl:text-4xl font-bold text-center text-white'>HABILIDADES</h1>
       <section className='relative'>
         <div
           className="overflow-hidden
@@ -48,7 +48,7 @@ export default function Skill() {
                   key={alt}
                   className=' relative
                     w-[200px]
-                    m-20
+                    mx-20
                     shrink-0
                     flex
                     items-center

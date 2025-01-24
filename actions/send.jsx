@@ -90,7 +90,7 @@ export const sendEmail = async ({ correo }) => {
 
     <!-- Message -->
     <div class="message">
-      <p>Estimado/a [Nombre del destinatario],</p>
+      <p>Estimado/a</p>
       <p>Mi nombre es Jack Najarro Cuadros tengo  experiencia en desarrollo de aplicaciones web y backend. Te envío mi CV con el objetivo de que puedas conocer más sobre mi trayectoria profesional, mis habilidades y cómo podría aportar valor a tu equipo.</p>
       <p>Estoy interesado en formar parte de proyectos que impliquen nuevos retos y aprendizaje constante. Si tienes alguna duda o necesitas más información sobre mi perfil, no dudes en escribirme.</p>
       <p>Estoy disponible para conversar en cualquier momento conveniente y espero con entusiasmo la oportunidad de colaborar contigo.</p>

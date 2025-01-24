@@ -129,7 +129,7 @@ export const sendEmail = async ({ correo }) => {
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: correo,
-      subject: 'Correo prueba', // Asunto
+      subject: 'Curriculum Vitae Jack Najarro', // Asunto
       html: template
     }
     await transporter.sendMail(mailOptions)

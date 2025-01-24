@@ -15,7 +15,7 @@ export default function Banner() {
           </span>
           <div className='flex items-center justify-center my-4 lg:justify-start xl:justify-start gap-x-4'>
             <ButtonEmail />
-            <Button variant='outline' className='text-white border-none bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:outline-none focus:ring-blue-300 0 hover:text-white/60'><a target='_blank' href={process.env.NEXT_PUBLIC_URL_CV} rel='noreferrer'>Descargar CV</a></Button>
+            <Button variant='outline' className='text-white border-none bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:outline-none focus:ring-blue-300 0 hover:text-white/60'><a target='_blank' href={process.env.URL_CV} rel='noreferrer'>Descargar CV</a></Button>
           </div>
         </div>
         <div className='w-full h-full'>

@@ -102,7 +102,7 @@ export const sendEmail = async ({ correo }) => {
 
     <div class="cta">
       <p><strong>Haz clic en los siguientes enlaces para conocer más sobre mí:</strong></p>
-      <a href="https://drive.google.com/file/d/1hSTdvJ8xGbi6IbQTYDR5thYpUXK610VX/view?usp=sharing" target="_blank">Ver mi CV</a>
+      <a href="${process.env.URL_CV}" target="_blank">Ver mi CV</a>
       <a href="https://www.linkedin.com/in/jack-najarro-cuadros-b13aa4219/" target="_blank">Ver mi LinkedIn</a>
     </div>
 

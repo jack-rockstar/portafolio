@@ -1,5 +1,6 @@
 /* eslint-disable */
 
+import ToastProvider from '@/components/providers/toast-provider'
 import { Roboto_Mono } from 'next/font/google'
 import './globals.css'
 
@@ -13,7 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        <ToastProvider/>
+        {children}
+      </body>
     </html>
   )
 }

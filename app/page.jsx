@@ -1,7 +1,7 @@
-import Banner from './components/banner'
-import Footer from './components/footer'
-import Navbar from './components/navbar'
-import Projects from './components/projects'
+import Banner from '../components/banner'
+import Footer from '../components/footer'
+import Navbar from '../components/navbar'
+import Projects from '../components/projects'
 
 export default function Home() {
   return (

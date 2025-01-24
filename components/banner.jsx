@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import ButtonEmail from './button-email'
 
 export default function Banner() {
   return (
@@ -7,14 +8,14 @@ export default function Banner() {
       <article className='flex  p-4 flex-col items-center justify-center h-full max-w-6xl m-auto md:flex-col lg:flex-row xl:flex-row'>
         <div className='flex flex-col w-full h-auto text-center md:text-center lg:text-left xl:text-left'>
           <span className='text-2xl font-bold text-white'>
-            ¡Hola!
+            ¡Hola! Soy
           </span>
           <h1 className='text-[#3f77bd]  font-bold text-7xl'>Jack Najarro</h1>
           <span className='block mt-2 text-lg leading-8 text-white'>Desarrollador front-end apasionado por crear experiencias de usuario atractivas e intuitivas.
           </span>
           <div className='flex items-center justify-center my-4 lg:justify-start xl:justify-start gap-x-4'>
-            <Button variant='outline' className='text-white border-none bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:outline-none focus:ring-blue-300 0 hover:text-white/60'>Enviar por correo</Button>
-            <Button variant='outline' className='text-white border-none bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:outline-none focus:ring-blue-300 0 hover:text-white/60'>Descargar CV</Button>
+            <ButtonEmail />
+            <Button variant='outline' className='text-white border-none bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:outline-none focus:ring-blue-300 0 hover:text-white/60'><a target='_blank' href='https://drive.google.com/file/d/1hSTdvJ8xGbi6IbQTYDR5thYpUXK610VX/view?usp=sharing' rel='noreferrer'>Descargar CV</a></Button>
           </div>
         </div>
         <div className='w-full h-full'>
@@ -40,7 +41,7 @@ export default function Banner() {
       <article className='flex flex-col-reverse justify-center h-auto max-w-6xl m-auto md:flex-col lg:flex-row xl:flex-row gap-x-4'>
         <section className='flex flex-col px-2 items-center justify-center h-full w-full m-auto'>
           <h3 className='block my-4 text-4xl font-bold text-center text-white'>SOBRE MI</h3>
-          <span className='w-full text-lg leading-8 text-center text-white'>Graduado en Ingeniería Informática, comprometido con el trabajo que se me encomienda. La búsqueda constante de aprendizaje me motiva a mantenerme al tanto de las últimas tendencias tecnológicas y a descubrir nuevas formas de mejorar.
+          <span className='w-full text-lg leading-8 text-center text-white'>Cursando la carrera de Ingeniería Informática, comprometido con el trabajo que se me encomienda. La búsqueda constante de aprendizaje me motiva a mantenerme al tanto de las últimas tendencias tecnológicas y a descubrir nuevas formas de mejorar.
 
             Dispuesto a aprender nuevas tecnologías y a enfrentar los desafíos que estas conllevan.
           </span>
